@@ -1,0 +1,6 @@
+items:
+    test:
+        item: 1 1 name:Test_clickable_item lore:Default_lore
+        event:
+            right_click: tara1v1 ranked
+            left_click_entity: tara1v1 ranked %CLICKED%

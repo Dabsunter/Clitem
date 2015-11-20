@@ -1,0 +1,17 @@
+name: Clitem
+main: fr.dabsunter.clitem.Clitem
+version: 1.0.2
+author: Dabsunter
+description: Ajoute des items cliquables dans Minecraft
+
+commands:
+    clitem:
+        usage: /<command>
+        description: Accès aux commandes Clitem
+        permission: clitem.command
+
+permissions:
+    clitem.command:
+        default: op
+    clitem.use.*:
+        default: true
